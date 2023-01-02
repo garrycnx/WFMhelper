@@ -47,7 +47,7 @@
     color: darkblue;
     font-family: Arial, Helvetica, sans-serif; 
     position: absolute;
-    top: 150px;
+    top: 170px;
     left:12px;
     font-size: 15px;
 }
@@ -124,6 +124,7 @@
             margin:8px;
             padding: 10px;
             display: flow-root;
+            
 
 }    
 
@@ -133,17 +134,18 @@
     text-decoration: dotted   ;
     font-size: large;
     font-style: initial;
+    
 }
 .active, .menu-bar ul li:hover
 {
     background: rgb(1, 159, 164);
     border-radius:3px ;
-
+    border: 1px solid #ddd;
 }
 .header {
         color: white;
         position: absolute;
-        right: 80px;
+        right: 73px;
         top: 20px;
         font-size: large;
         
@@ -153,10 +155,31 @@
 {
     color: white;
     position: absolute;
-    right: 20px;
+    right: 16px;
     top: 45px;
 
 }
+
+.desi1
+{
+    color: white;
+    position: absolute;
+    font-size: larger;
+    right: 20px;
+    top: 5px;
+
+}
+
+.desi2
+{
+    color: white;
+    position: absolute;
+    font-size: medium;
+    right: 25px;
+    top: 37px;
+
+}
+
 .sub-menu-1
 {
     display: none;
@@ -166,6 +189,7 @@
     display: block;
     position: absolute;
       background: rgb(0, green, 0);
+      border: 1px solid #ddd;
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul
@@ -173,8 +197,9 @@
     display: block;
     margin: 10px;
     position: absolute;
-    right: -130px;
-    background-color:  rgb(1, 159, 164);
+    right: -150px;
+    background-color:  rgb(4, 124, 128);
+    border: 1px solid #ddd;
 
 }
 .menu-bar ul li:hover .sub-menu-1 ul li
@@ -182,6 +207,7 @@
     width: 100px;
     padding: 5px;
     left: 100px;
+    
     
 }
 .menu-bar ul li:hover .sub-menu-1 ul li:hover
@@ -218,9 +244,11 @@
 {
     display: block;
     margin: 5px;
-    position: absolute;
-    right: -130px;
-    background-color:  rgb(1, 159, 164);
+    position: relative;
+    right: 15px;
+    background-color:  rgb(4, 124, 128);
+    border: 1px solid #ddd;
+    font-size: 5px;
 
 }
 .menu-bar ul li:hover .sub-menu-2 ul li
@@ -235,3 +263,36 @@
     background-color: coral;
 
 }
+
+.abtme{
+        color: black;
+
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  img {
+    max-width: 100%
+  }
+  .image {
+    flex-basis: 40%;
+    border:10px;
+    height: auto;
+    
+    
+  }
+  .text {
+    font-size: 20px;
+    margin-top: -450px;
+    padding-top: -200px;
+    align-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-style: oblique;
+    border: black;
+       
+  }
